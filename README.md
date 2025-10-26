@@ -10,7 +10,6 @@ Step 1: Initially, stack and visited arrays are empty.
 
  ![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/640b3c6f-3ac1-49a2-a955-68da9a71f446)
 
-
 Queue and visited arrays are empty initially.
 Stack and visited arrays are empty initially.
 Step 2: Visit 0 and put its adjacent nodes which are not visited yet into the stack.
@@ -33,18 +32,13 @@ Step 4: Now, Node 2 at the top of the stack, so visit node 2 and pop it from the
 
 Step 5: Now, Node 4 at the top of the stack, so visit node 4 and pop it from the stack and put all of its adjacent nodes which are not visited in the stack.
  ![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/20b76a05-5668-4da5-8189-e10fb1bb7238)
-
  Visit node 4
  Visit node 4
-
 Step 6: Now, Node 3 at the top of the stack, so visit node 3 and pop it from the stack and put all of its adjacent nodes which are not visited in the stack.
  ![image](https://github.com/natsaravanan/19AI405FUNDAMENTALSOFARTIFICIALINTELLIGENCE/assets/87870499/3b88f04a-7846-4f75-89b4-22bbd5b48e52)
-
 Visit node 3
 Visit node 3
-
 Now, the Stack becomes empty, which means we have visited all the nodes, and our DFS traversal ends.
-
 <h3>Algorithm:</h3>
 <B><ol>
  <li>Construct a Graph with Nodes and Edges</li>
@@ -53,7 +47,6 @@ Now, the Stack becomes empty, which means we have visited all the nodes, and our
  <li>Find its Successors Or neighbors and Check whether the node is visited or not</li>
  <li>If Not Visited, add it to the STACK. Else Call The Function Again Until No more nodes needs to be visited.</li>
 </ol></B>
-
 <hr>
 <h3>Sample Input</h3>
 <hr>
@@ -71,9 +64,7 @@ F H <BR>
 <h3>Sample Output</h3>
 <hr>
 ['A', 'B', 'E', 'D', 'C', 'G', 'F', 'H']
-
 <hr>
-
 <hr>
 <h3>Sample Input</h3>
 <hr>
